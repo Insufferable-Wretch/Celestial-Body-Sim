@@ -1,4 +1,4 @@
-// Object Setup
+// (Temporary) Object Setup
 let posX, posY;
 let speedX, speedY;
 let diam, rad;
