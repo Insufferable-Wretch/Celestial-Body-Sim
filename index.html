@@ -4,12 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>2D Celestial Body Sim</title>
+
+    <!-- CSS -->
     <link rel="stylesheet" href="styles/style.css">
+
+    <!-- MathJax -->
+    <!-- <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script> -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   </head>
   <body>
     <!-- Program Data Panel -->
     <div id="info-panel">
-      <p id="equations-utilized">\[ F = G \cdot \frac{{m_1 \cdot m_2}}{{r^2}} \]</p>
+      <p id="equations-utilized">\[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\]</p>
       <p id="object-speed"></p>
     </div>
 
@@ -20,9 +29,10 @@
       </main>
     </div>
     
-    <!-- Javascript -->
-    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
-    <script src="sketch.js"></script>
+    <!-- p5 Library -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script> -->
+    
+    <!-- My Script -->
+    <!-- <script src="sketch.js"></script> -->
   </body>
 </html>
